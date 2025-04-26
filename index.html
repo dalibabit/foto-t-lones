@@ -6,13 +6,14 @@
   <title>FOTO T LONES</title>
   <style>
     * {
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
     }
 
     body {
-      margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #e0f7fa, #fff);
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
       display: flex;
       flex-direction: column;
       min-height: 100vh;
@@ -22,13 +23,14 @@
       text-align: center;
       padding: 1.5rem;
       color: #222;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
       font-weight: bold;
+      font-size: 2rem;
     }
 
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;
       padding: 30px;
       max-width: 1200px;
@@ -76,7 +78,7 @@
       padding: 1rem;
       background: #222;
       color: #f0f0f0;
-      font-size: 0.9rem;
+      font-size: 1rem;
       letter-spacing: 1px;
     }
   </style>
@@ -86,21 +88,4 @@
   <h1>FOTO T LONES</h1>
 
   <div class="gallery">
-    <a href="#img1"><img src="https://placekitten.com/600/400" alt="Photo 1"></a>
-    <a href="#img2"><img src="https://placekitten.com/601/400" alt="Photo 2"></a>
-    <a href="#img3"><img src="https://placekitten.com/600/401" alt="Photo 3"></a>
-    <a href="#img4"><img src="https://placekitten.com/599/400" alt="Photo 4"></a>
-  </div>
-
-  <!-- Lightbox Views -->
-  <div id="img1" class="lightbox"><a href="#"><img src="https://placekitten.com/600/400"></a></div>
-  <div id="img2" class="lightbox"><a href="#"><img src="https://placekitten.com/601/400"></a></div>
-  <div id="img3" class="lightbox"><a href="#"><img src="https://placekitten.com/600/401"></a></div>
-  <div id="img4" class="lightbox"><a href="#"><img src="https://placekitten.com/599/400"></a></div>
-
-  <footer>
-    © 2025 FOTO T LONES — All rights reserved.
-  </footer>
-
-</body>
-</html>
+    <!-- Example Image Links, R
